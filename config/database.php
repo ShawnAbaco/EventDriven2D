@@ -1,10 +1,10 @@
-<?php 
+<?php
 // Database Credentials
 $servername = "localhost";
 $username = "root";
-$password = ""; // Default Password: Blank | Empty
+$password = "";
 
-$database_name = "db_eventdriven";
+$database_name = "db_test";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database_name);
